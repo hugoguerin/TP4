@@ -1,0 +1,72 @@
+body{
+    background-image: radial-gradient(circle at top,  #CCDAE0, #EDF2F4);    
+}
+
+header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.banniere{
+    width: 800px;
+    height: 200px;
+    background-image: url(https://source.unsplash.com/800x200/?winter);
+}
+
+h1{
+    font-family: Impact;
+    font-size: 4rem;
+    color: #EF233C;
+    font-weight: bold;
+}
+
+h3{
+    color:#2B2D42;
+    font-size: 3rem;
+    font-weight: bold;
+    text-decoration-line:underline;
+    text-decoration-style: dotted;
+    
+}
+
+section{
+    border: black solid 1px;
+}
+
+.imgsection{
+    display: flex;
+    justify-content: center;
+}
+
+.imgarticle{
+    border: black solid 2px;
+}
+
+footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a:link{
+    color: #D90429;
+}
+
+a:visited{
+    color: grey;
+}
+
+a:hover{
+    color: #2B2D42;
+}
+
+.required::after {
+    content:"*";
+    color: red;
+
+}

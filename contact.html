@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact</title>
+</head>
+<body>
+    <header>
+        <div class="banniere"></div>
+        <h1>Voici mon titre</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Acceuil</a>
+                </li>
+                <li>
+                    <a href="index.html#blog">Blog</a>
+                </li>
+                <li>
+                    <a href="">Galerie</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <form method="post" method="monProgramme.php">
+           <fieldset>
+            <legend>Infos personelles:</legend>
+            <label  class="required" for="nom">Nom:</label>
+            <input type="text" name="nom" minlength="2" maxlength="20" placeholder="Ex: Guerin" required>
+            <br>
+            <label class="required" for="email">E-mail:</label>
+            <input type="email" name="email" placeholder="Ex: monMail@FAI.com" required>
+            <br>
+            <label for="commentaire">Laissez un commentaire:</label>
+            <br>
+            <textarea name="commentaire" cols="70" rows="10" placeholder="J'adore ce que vous faites!"></textarea>
+            <br>
+            <input type="checkbox" id="checkbox" checked><label for="checkbox"> Envoie d'une copie</label>
+            <br>
+            <input type="submit" value="Envoyer">
+            <input type="reset" value="Reset">
+
+
+           </fieldset>     
+                
+        </form>
+    </section>
+    <footer>
+        <ul>
+            <li>
+                <a href="https://google.com">Lien 1</a>
+            </li>
+            <li>
+                <a href="https://google.com">Lien 2</a>
+            </li>
+            <li>
+                <a href="https://google.com">Lien 3</a>
+            </li>
+            <li>
+                <a href="https://google.com">Lien 4</a>
+            </li>
+        </ul>
+    </footer>
+
+</body>
+</html>
